@@ -380,4 +380,128 @@ a {
   padding: 25px 108px;
   color: #FFFFFF;
   background-color: #0F0F0F;
+}
+
+.contact {
+  background-color: #636363;
+}
+
+.contact__container {
+  padding-top: 194px;
+  padding-bottom: 109px;
+}
+
+.contact__body {
+  display: flex;
+}
+
+.contact__logo {
+  width: 176px;
+  height: 151px;
+  margin-right: 198px;
+  fill: #FFFFFF;
+}
+
+.contact__wrapper-about {
+  margin-right: 140px;
+}
+
+.contact__title-about {
+  margin-bottom: 64px;
+  color: #FFFFFF;
+}
+
+.contact__list-about {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact__item-about {
+  color: #FFFFFF;
+}
+
+.contact__wrapper-customers {
+  margin-right: 92px;
+}
+
+.contact__title-customer {
+  margin-bottom: 64px;
+  color: #FFFFFF;
+}
+
+.contact__list-customer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact__item-customer {
+  color: #FFFFFF;
+}
+
+.contact__list-tel {
+  margin-bottom: 49px;
+}
+
+.contact__link-tel {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+}
+
+.contact__wrapper-all-icon {
+  display: flex;
+  gap: 59px;
+}
+
+.contact__list-messeger {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.contact__icon-viber {
+  stroke: #FFFFFF;
+  width: 23px;
+  height: 24px;
+}
+
+.contact__icon-telegram {
+  stroke: #FFFFFF;
+  width: 20px;
+  height: 21px;
+}
+
+.contact__icon-whatsapp {
+  stroke: #FFFFFF;
+  width: 24px;
+  height: 24px;
+}
+
+.contact__list-social {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.contact__icon-note {
+  stroke: #FFFFFF;
+  width: 25px;
+  height: 17px;
+}
+
+.contact__icon-fb {
+  stroke: #FFFFFF;
+  width: 15px;
+  height: 25px;
+}
+
+.contact__icon-instagram {
+  stroke: #FFFFFF;
+  width: 23px;
+  height: 24px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,116 @@
+.contact {
+    background-color: #636363;
+}
+.contact__container {
+    padding-top: 194px;
+    padding-bottom: 109px;
+}
+.contact__body {
+    display: flex;
+}
+.contact__logo {
+    width: 176px;
+    height: 151px;
+    margin-right: 198px;
+    fill: $white-color;
+}
+.contact__wrapper-about {
+    margin-right: 140px;
+}
+.contact__title-about {
+    margin-bottom: 64px;
+    color: $white-color;
+}
+.contact__list-about {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact__item-about {
+    color: $white-color;
+}
+.contact__wrapper-customers {
+    margin-right: 92px;
+}
+.contact__title-customer {
+    margin-bottom: 64px;
+    color: $white-color;
+}
+.contact__list-customer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact__item-customer {
+    color: $white-color;
+}
+.contact__wrapper-all {}
+.contact__list-tel {
+    margin-bottom: 49px;
+}
+.contact__item-tel {
+}
+.contact__link-tel {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.07em;
+    color: $white-color;    
+}
+.contact__wrapper-all-icon {
+    display: flex;
+    gap: 59px;
+}
+.contact__wrapper-messeger {
+}
+.contact__list-messeger {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+.contact__item-messeger {
+}
+.contact__link-messeger {
+}
+.contact__icon-viber {
+    stroke: $white-color;
+    width: 23px;
+    height: 24px;
+}
+.contact__icon-telegram {
+    stroke: $white-color;
+    width: 20px;
+    height: 21px;
+}
+.contact__icon-whatsapp {
+    stroke: $white-color;
+    width: 24px;
+    height: 24px;
+}
+.contact__wrapper-social {
+}
+.contact__list-social {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+.contact__item-social {
+}
+.contact__link-social {
+}
+.contact__icon-note {
+    stroke: $white-color;
+    width: 25px;
+    height: 17px;
+}
+.contact__icon-fb {
+    stroke: $white-color;
+    width: 15px;
+    height: 25px;
+}
+.contact__icon-instagram {
+    stroke: $white-color;
+    width: 23px;
+    height: 24px;
+}
