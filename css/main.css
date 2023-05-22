@@ -110,7 +110,7 @@ a {
 }
 
 .hero__content {
-  width: 50%;
+  width: 46%;
 }
 
 .hero__title {
@@ -134,9 +134,9 @@ a {
   padding: 25px 90px;
 }
 
-.hero__imgwrapper {
+.hero__img-wrapper {
   margin-top: 37px;
-  width: 50%;
+  width: 40%;
 }
 
 .hero__img {
@@ -174,4 +174,78 @@ a {
   font-weight: 300;
   line-height: 1.25;
   letter-spacing: 0.07em;
+}
+
+.card__container {
+  padding: 90px 120px 96px 120px;
+}
+
+.card__list-top {
+  display: flex;
+  justify-content: center;
+  gap: 168px;
+  margin-bottom: 104px;
+}
+
+.card__list-item {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0.07em;
+}
+
+.card__list-card {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 61px;
+  row-gap: 96px;
+  margin-bottom: 73px;
+}
+
+.card__img-man {
+  margin-bottom: 13px;
+}
+
+.card__wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+  color: #CECECE;
+}
+
+.card__img-stars {
+  margin-right: auto;
+}
+
+.wrapper-span {
+  display: flex;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-transform: uppercase;
+}
+
+.S,
+.M,
+.L {
+  cursor: pointer;
+}
+.S:hover,
+.M:hover,
+.L:hover {
+  color: #000;
+}
+
+.card__name {
+  margin-bottom: 25px;
+}
+
+.card__button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card__button {
+  padding: 25px 61px;
 }/*# sourceMappingURL=main.css.map */
