@@ -1,0 +1,25 @@
+.discounts {
+    background: #F5F5F5;
+}
+.discounts__list {
+    display: flex;
+    gap: 40px;
+    padding: 29px 0px 36px 0px;
+}
+.discounts__item {
+    display: flex;
+    align-items: center;
+    width: 534px;
+    background-color: $white-color;
+}
+.discounts__img {
+}
+.discounts__thumb{
+    padding: 48px 0px;
+}
+.discounts__subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: 0.07em;
+}
