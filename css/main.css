@@ -1,71 +1,29 @@
 body {
   font-family: "Montserrat";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  color: var(--general-color);
-}
-
-.button-orange {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--grey-color);
-  background-color: var(--button-color);
-  border: 1px solid var(--button-color);
-  border-radius: 2px;
-}
-
-.button-black {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--grey-color);
-  background-color: var(--general-color);
-  border: 1px solid var(--general-color);
-  border-radius: 2px;
-}
-
-.button-white {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--general-color);
-  background-color: var(--grey-color);
-  border: 1px solid var(--grey-color);
-  border-radius: 2px;
-}
-
-.title {
-  font-size: 29px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.sub-title {
-  font-size: 23px;
-  font-weight: 600;
-  line-height: 1.6;
-}
-
-.subtitle {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.38;
-}
-
-.gorizontal-line {
-  height: 18px;
-  width: 120px;
-  background: #F9BB88;
-}
-
-.vertical-line {
-  height: 80px;
-  width: 21px;
-  background: #F9BB88;
+  color: #0F0F0F;
 }
 
 .container {
-  width: 420px;
+  width: 1680px;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 0px 120px;
+}
+
+.fat-style {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.23;
+  letter-spacing: 0.07em;
+}
+
+.button {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: 0.07em;
+  border: 1px solid #0F0F0F;
 }
 
 h1,
@@ -88,4 +46,55 @@ ul {
 a {
   text-decoration: none;
   padding: 0;
+}
+
+.header__body {
+  display: flex;
+  align-items: center;
+  padding-top: 33px;
+}
+
+.header__list {
+  display: flex;
+  gap: 26px;
+}
+
+.heder__link-item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.21;
+  letter-spacing: 0.07em;
+  color: #0F0F0F;
+}
+
+.header__logo {
+  margin-left: 49px;
+  width: 121px;
+  height: 104px;
+}
+
+.header__icon-navigation {
+  display: flex;
+  gap: 73px;
+  margin-left: auto;
+}
+
+.header__icon-search {
+  width: 25px;
+  height: 25px;
+}
+
+.header__icon-favorite {
+  width: 28px;
+  height: 25px;
+}
+
+.header__icon-basket {
+  width: 30px;
+  height: 25px;
+}
+
+.header__icon-user {
+  width: 21px;
+  height: 25px;
 }/*# sourceMappingURL=main.css.map */
