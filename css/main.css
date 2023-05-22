@@ -324,4 +324,60 @@ a {
 
 .news__button {
   padding: 25px 76px;
+}
+
+.subscribe__container {
+  padding-top: 69px;
+  padding-bottom: 70px;
+}
+
+.subscribe__body {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe__text {
+  width: 615px;
+  margin-right: 62px;
+}
+
+.subscribe__icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-right: 50px;
+}
+
+.subscribe__icon-viber {
+  width: 53px;
+  height: 56px;
+}
+
+.subscribe__icon-telegram {
+  width: 47px;
+  height: 41px;
+}
+
+.subscribe__form {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe__input {
+  width: 453px;
+  padding: 26px 90px 26px 66px;
+}
+
+.subscribe__input::placeholder {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.07em;
+}
+
+.subscribe__button {
+  padding: 25px 108px;
+  color: #FFFFFF;
+  background-color: #0F0F0F;
 }/*# sourceMappingURL=main.css.map */
