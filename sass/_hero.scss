@@ -1,0 +1,36 @@
+.hero__body {
+    display: flex;
+}
+.hero__content {
+    width: 50%;
+}
+.hero__title {
+    margin-bottom: 22px;
+    margin-top: 376px;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 0.07em;
+}
+.hero__subtitle {
+    margin-bottom: 60px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.07em;
+}
+.hero__button {
+    padding: 25px 90px;
+}
+.hero__imgwrapper {
+    margin-top: 37px;
+    width: 50%;
+}
+.hero__img {
+    background-image: url('../img/hero/hero.png');
+    width: 737px;
+    height: 1044px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

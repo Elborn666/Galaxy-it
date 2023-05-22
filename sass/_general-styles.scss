@@ -5,8 +5,7 @@ body {
     color: #0F0F0F;
 }
 .container {
-    width: 1680px;
-    margin: 0 auto;
+    width: 1920px;
     padding: 0px 120px;
 }
 .fat-style {
@@ -21,4 +20,6 @@ body {
     line-height: 1.22;
     letter-spacing: 0.07em;
     border: 1px solid #0F0F0F;
+    text-transform: uppercase;
+    cursor: pointer;
 }
