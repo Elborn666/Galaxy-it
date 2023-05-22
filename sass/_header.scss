@@ -17,6 +17,14 @@
     letter-spacing: 0.07em;
     color: $black-color;
     text-transform: uppercase;
+    // &:first-child{
+    //     content: '';
+    //     display: block;
+    //     background-image: url('../icon/cross-down.svg');
+    //     background-repeat: no-repeat;
+    //     width: 15px;
+    //     height: 15px;
+    // }
 }
 .header__logo {
     margin-left: 49px;
@@ -31,16 +39,20 @@
 .header__icon-search {
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 .header__icon-favorite {
     width: 28px;
     height: 25px;
+    cursor: pointer;
 }
 .header__icon-basket {
     width: 30px;
     height: 25px;
+    cursor: pointer;
 }
 .header__icon-user {
     width: 21px;
     height: 25px;
+    cursor: pointer;
 }

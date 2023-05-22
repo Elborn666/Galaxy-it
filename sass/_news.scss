@@ -6,10 +6,19 @@
     padding-bottom: 78px;
 }
 .news__list {
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 92px;
     margin-bottom: 91px;
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 50px;
+        border-bottom: 1px solid $black-color;
+        width: 360px;
+    }
 }
 .news__item {
     font-size: 18px;
@@ -17,6 +26,9 @@
     line-height: 1.22;
     letter-spacing: 0.07em;
     color: #878787;
+    &:hover{
+        color: $black-color;
+    }
 }
 .news__card {
     display: flex;

@@ -44,11 +44,8 @@
 .contact__item-customer {
     color: $white-color;
 }
-.contact__wrapper-all {}
 .contact__list-tel {
     margin-bottom: 49px;
-}
-.contact__item-tel {
 }
 .contact__link-tel {
     font-family: 'Montserrat';
@@ -62,16 +59,10 @@
     display: flex;
     gap: 59px;
 }
-.contact__wrapper-messeger {
-}
 .contact__list-messeger {
     display: flex;
     gap: 26px;
     align-items: center;
-}
-.contact__item-messeger {
-}
-.contact__link-messeger {
 }
 .contact__icon-viber {
     stroke: $white-color;
@@ -88,16 +79,10 @@
     width: 24px;
     height: 24px;
 }
-.contact__wrapper-social {
-}
 .contact__list-social {
     display: flex;
     gap: 26px;
     align-items: center;
-}
-.contact__item-social {
-}
-.contact__link-social {
 }
 .contact__icon-note {
     stroke: $white-color;

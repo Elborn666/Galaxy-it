@@ -2,17 +2,29 @@
     padding: 90px 120px 96px 120px;
 }
 .card__list-top {
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 168px;
     margin-bottom: 104px; 
     color: #878787;
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 50px;
+        border-bottom: 1px solid $black-color;
+        width: 750px;
+    }
 }
 .card__list-item {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.22;
     letter-spacing: 0.07em;
+    &:hover{
+        color: $black-color;
+    }
 }
 .card__list-card {
     display: flex;

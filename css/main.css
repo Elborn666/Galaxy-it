@@ -88,21 +88,25 @@ a {
 .header__icon-search {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 
 .header__icon-favorite {
   width: 28px;
   height: 25px;
+  cursor: pointer;
 }
 
 .header__icon-basket {
   width: 30px;
   height: 25px;
+  cursor: pointer;
 }
 
 .header__icon-user {
   width: 21px;
   height: 25px;
+  cursor: pointer;
 }
 
 .hero__body {
@@ -181,11 +185,20 @@ a {
 }
 
 .card__list-top {
+  position: relative;
   display: flex;
   justify-content: center;
   gap: 168px;
   margin-bottom: 104px;
   color: #878787;
+}
+.card__list-top::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50px;
+  border-bottom: 1px solid #0F0F0F;
+  width: 750px;
 }
 
 .card__list-item {
@@ -193,6 +206,9 @@ a {
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: 0.07em;
+}
+.card__list-item:hover {
+  color: #0F0F0F;
 }
 
 .card__list-card {
@@ -261,10 +277,19 @@ a {
 }
 
 .news__list {
+  position: relative;
   display: flex;
   justify-content: center;
   gap: 92px;
   margin-bottom: 91px;
+}
+.news__list::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50px;
+  border-bottom: 1px solid #0F0F0F;
+  width: 360px;
 }
 
 .news__item {
@@ -273,6 +298,9 @@ a {
   line-height: 1.22;
   letter-spacing: 0.07em;
   color: #878787;
+}
+.news__item:hover {
+  color: #0F0F0F;
 }
 
 .news__card {
